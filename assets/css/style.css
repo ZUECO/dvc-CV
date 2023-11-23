@@ -28,6 +28,7 @@ body {
 
 }
 
+
 .container .left_side {
     position: relative;
     background-color: #003147;
@@ -243,6 +244,22 @@ p {
     width: 20px;
 }
 
+footer {
+    padding: 10px;
+    background-color: #003147;
+    justify-content: center;
+    text-align: center;
+}
+
+footer h3 {
+    color: #fff;
+}
+
+footer .fa {
+    font-size: 24px;
+    padding-right: 5px;
+}
+
 @media (max-width: 1000px) {
     .container {
         margin: 10px;
@@ -252,6 +269,7 @@ p {
     .interest ul {
         grid-template-columns: repeat(2, 1fr);
     }
+
 }
 
 @media (max-width: 600px) {
@@ -270,4 +288,5 @@ p {
     .skills .box {
         grid-template-columns: repeat(1, 1fr);
     }
+
 }
