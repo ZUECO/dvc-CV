@@ -61,6 +61,11 @@ body {
   justify-content: center;
 }
 
+.nav-menu ul li a { 
+color: #fff;
+text-decoration: none;
+}
+
 .nav-menu ul li:hover{
   transform: scale(1.3);
 }
